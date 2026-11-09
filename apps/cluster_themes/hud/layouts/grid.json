@@ -9,7 +9,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 680,
+      "h": 640,
       "step": 50,
       "major": 2
     },
@@ -20,7 +20,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 680,
+      "h": 640,
       "step": 100,
       "font": "head"
     },
@@ -31,7 +31,7 @@
       "x": 250,
       "y": 440,
       "w": 1100,
-      "h": 80,
+      "h": 66,
       "steps": 11
     },
     {
@@ -39,9 +39,9 @@
       "type": "swatchimg",
       "z": 10,
       "x": 250,
-      "y": 520,
+      "y": 506,
       "w": 1100,
-      "h": 80,
+      "h": 52,
       "steps": 11
     },
     {
@@ -282,5 +282,5 @@
     }
   ],
   "theme": "gt3",
-  "_safe680": "Experimental: bottom 40px reserved for native BMW information; unverified."
+  "_safe640": "Experimental compressed footer layout; not vehicle verified."
 }
