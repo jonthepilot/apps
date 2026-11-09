@@ -80,7 +80,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 640,
+      "h": 660,
       "color": "bg",
       "tiles": [
         {
@@ -884,5 +884,6 @@
       "conn": 3
     }
   ],
-  "_safe640": "Experimental compressed footer layout; not vehicle verified."
+  "_safe640": "Experimental compressed footer layout; not vehicle verified.",
+  "_borderTest": "Experimental 0.13.5: extend existing background layers from 640 to 660 without creating any additional compositor layers. Native footer expected below; if factory info is obscured, switch Off. Not verified."
 }
