@@ -2,7 +2,7 @@
   "id": "heritage_motorsport",
   "title": "Heritage & Motorsport",
   "description": "Four BMW heritage and racing cluster designs with oil/coolant/boost telemetry, color presets and settings. Experimental M440i 660px safe area.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "vendor": "custom",
   "loggingId": "HMS1",
   "iconGlyph": "HMS",
