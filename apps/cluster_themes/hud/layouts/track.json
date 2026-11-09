@@ -30,7 +30,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 640,
+      "h": 680,
       "color": "bg",
       "boxes": [
         {
@@ -56,7 +56,7 @@
           "x": 130,
           "y": 436,
           "w": 265,
-          "h": 204,
+          "h": 220,
           "head": 36,
           "radius": 4
         },
@@ -65,7 +65,7 @@
           "x": 415,
           "y": 436,
           "w": 265,
-          "h": 204,
+          "h": 220,
           "head": 36,
           "radius": 4
         },
@@ -83,7 +83,7 @@
           "x": 700,
           "y": 536,
           "w": 690,
-          "h": 104,
+          "h": 144,
           "head": 36,
           "radius": 4
         },
@@ -110,7 +110,7 @@
           "x": 1610,
           "y": 572,
           "w": 280,
-          "h": 68,
+          "h": 108,
           "head": 36,
           "radius": 4
         }
@@ -422,11 +422,24 @@
       "x": 795,
       "y": 595,
       "w": 240,
-      "h": 45,
+      "h": 70,
       "text": "{{speed}}",
       "font": "value",
       "color": "fg",
       "align": "right"
+    },
+    {
+      "id": "speed_unit",
+      "type": "text",
+      "z": 5,
+      "x": 1045,
+      "y": 624,
+      "w": 100,
+      "h": 37,
+      "text": "{{u:speed}}",
+      "font": "unit",
+      "color": "dim",
+      "align": "left"
     },
     {
       "id": "r1_head",
@@ -505,7 +518,25 @@
       "color": "ink",
       "align": "left",
       "conn": 2
+    },
+    {
+      "id": "r3_val",
+      "type": "text",
+      "z": 5,
+      "x": 1626,
+      "y": 619,
+      "w": 250,
+      "h": 61,
+      "text": "{{slot:3}}{{slotSuffix:3}}",
+      "font": "value",
+      "color": "fg",
+      "align": "right",
+      "slot": "3",
+      "fit": [
+        "small"
+      ],
+      "conn": 2
     }
   ],
-  "_safe640": "Experimental: reserve y=640..719 for BMW native bottom status information (including ambient temperature when displayed by vehicle). May not fix native overlays; test parked. Some lower theme readouts are clipped or omitted."
+  "_safe680": "Experimental: bottom 40px reserved for native BMW information; unverified. GT3 black-box fix previously observed at cutoff 640."
 }
