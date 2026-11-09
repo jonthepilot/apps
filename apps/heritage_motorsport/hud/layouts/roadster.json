@@ -396,14 +396,14 @@
       "x": 140,
       "y": 223,
       "w": 260,
-      "h": 34,
+      "h": 37,
       "text": "{{slot:1}}{{slotSuffix:1}}",
-      "font": "r_val",
+      "font": "unit",
       "color": "fg",
       "align": "right",
       "slot": "1",
       "fit": [
-        "r_label"
+        "unit"
       ],
       "conn": 1
     },
@@ -428,14 +428,14 @@
       "x": 140,
       "y": 373,
       "w": 260,
-      "h": 34,
+      "h": 37,
       "text": "{{slot:2}}{{slotSuffix:2}}",
-      "font": "r_val",
+      "font": "unit",
       "color": "fg",
       "align": "right",
       "slot": "2",
       "fit": [
-        "r_label"
+        "unit"
       ],
       "conn": 1
     },
@@ -460,14 +460,14 @@
       "x": 140,
       "y": 499,
       "w": 260,
-      "h": 34,
+      "h": 37,
       "text": "{{slot:3}}{{slotSuffix:3}}",
-      "font": "r_val",
+      "font": "unit",
       "color": "fg",
       "align": "right",
       "slot": "3",
       "fit": [
-        "r_label"
+        "unit"
       ],
       "conn": 1
     },
@@ -492,14 +492,14 @@
       "x": 1520,
       "y": 223,
       "w": 260,
-      "h": 34,
+      "h": 37,
       "text": "{{slot:4}}{{slotSuffix:4}}",
-      "font": "r_val",
+      "font": "unit",
       "color": "fg",
       "align": "left",
       "slot": "4",
       "fit": [
-        "r_label"
+        "unit"
       ],
       "conn": 2
     },
@@ -524,14 +524,14 @@
       "x": 1520,
       "y": 373,
       "w": 260,
-      "h": 34,
+      "h": 37,
       "text": "{{slot:5}}{{slotSuffix:5}}",
-      "font": "r_val",
+      "font": "unit",
       "color": "fg",
       "align": "left",
       "slot": "5",
       "fit": [
-        "r_label"
+        "unit"
       ],
       "conn": 2
     },
@@ -556,14 +556,14 @@
       "x": 1520,
       "y": 499,
       "w": 260,
-      "h": 34,
+      "h": 37,
       "text": "{{slot:6}}{{slotSuffix:6}}",
-      "font": "r_val",
+      "font": "unit",
       "color": "fg",
       "align": "left",
       "slot": "6",
       "fit": [
-        "r_label"
+        "unit"
       ],
       "conn": 2
     },
