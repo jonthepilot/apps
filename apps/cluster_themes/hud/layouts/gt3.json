@@ -555,5 +555,6 @@
       "font": "badge",
       "color": "dim"
     }
-  ]
+  ],
+  "_safe640": "Experimental: reserve y=640..719 for BMW's native bottom status information (including ambient temperature when displayed by vehicle). May not fix native overlays; test parked. Some lower theme readouts are intentionally clipped or omitted."
 }
