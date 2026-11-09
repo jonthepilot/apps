@@ -49,41 +49,6 @@
       "color": "bg"
     },
     {
-      "id": "speed_dial",
-      "type": "dial",
-      "class": "content",
-      "z": 1,
-      "x": 345,
-      "y": 105,
-      "w": 520,
-      "h": 445,
-      "measure": "speed",
-      "ring": "chrome",
-      "ring2": "chrome2",
-      "needle": "needle",
-      "face": "face",
-      "minor": 4,
-      "ringW": 15
-    },
-    {
-      "id": "rpm_dial",
-      "type": "dial",
-      "class": "content",
-      "z": 1,
-      "x": 1055,
-      "y": 105,
-      "w": 520,
-      "h": 445,
-      "measure": "rpm",
-      "max": 7000,
-      "ring": "chrome",
-      "ring2": "chrome2",
-      "needle": "needle",
-      "face": "face",
-      "minor": 4,
-      "ringW": 15
-    },
-    {
       "id": "panels",
       "type": "boxes",
       "class": "content",
@@ -149,6 +114,41 @@
           "radius": 5
         }
       ]
+    },
+    {
+      "id": "speed_dial",
+      "type": "dial",
+      "class": "content",
+      "z": 2,
+      "x": 345,
+      "y": 105,
+      "w": 520,
+      "h": 445,
+      "measure": "speed",
+      "ring": "chrome",
+      "ring2": "chrome2",
+      "needle": "needle",
+      "face": "face",
+      "minor": 4,
+      "ringW": 15
+    },
+    {
+      "id": "rpm_dial",
+      "type": "dial",
+      "class": "content",
+      "z": 2,
+      "x": 1055,
+      "y": 105,
+      "w": 520,
+      "h": 445,
+      "measure": "rpm",
+      "max": 7000,
+      "ring": "chrome",
+      "ring2": "chrome2",
+      "needle": "needle",
+      "face": "face",
+      "minor": 4,
+      "ringW": 15
     },
     {
       "id": "title",
