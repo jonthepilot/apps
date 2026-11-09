@@ -12,7 +12,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 720,
+      "h": 640,
       "hole": [
         705,
         165,
@@ -33,9 +33,9 @@
         -1.417868,
         468.53
       ],
-      "cardFill": 0.0,
+      "cardFill": 0,
       "cardCutR": [
-        700.0,
+        700,
         106.2,
         565.9
       ],
@@ -583,67 +583,6 @@
       "color": "dim"
     },
     {
-      "id": "range_icon",
-      "type": "icon",
-      "icon": "fuel",
-      "z": 5,
-      "x": 216,
-      "y": 625,
-      "w": 29,
-      "h": 34,
-      "color": "dim"
-    },
-    {
-      "id": "range",
-      "type": "text",
-      "z": 5,
-      "x": 249,
-      "y": 624,
-      "w": 79,
-      "h": 34,
-      "text": "{{range}}",
-      "font": "m_mid",
-      "color": "fg",
-      "align": "right"
-    },
-    {
-      "id": "range_unit",
-      "type": "text",
-      "z": 5,
-      "x": 334,
-      "y": 630,
-      "w": 48,
-      "h": 29,
-      "text": "{{u:distLc}}",
-      "font": "m_tiny",
-      "color": "dim"
-    },
-    {
-      "id": "time",
-      "type": "text",
-      "z": 5,
-      "x": 370,
-      "y": 624,
-      "w": 133,
-      "h": 34,
-      "text": "{{time}}",
-      "font": "m_mid",
-      "color": "fg",
-      "align": "right"
-    },
-    {
-      "id": "ampm",
-      "type": "text",
-      "z": 5,
-      "x": 509,
-      "y": 630,
-      "w": 53,
-      "h": 29,
-      "text": "{{ampmLc}}",
-      "font": "m_tiny",
-      "color": "dim"
-    },
-    {
       "id": "ico_engine",
       "type": "icon",
       "icon": "gauge",
@@ -809,46 +748,7 @@
       "h": 22,
       "color": "dim",
       "conn": 1
-    },
-    {
-      "id": "outside",
-      "type": "text",
-      "z": 5,
-      "x": 1395,
-      "y": 624,
-      "w": 150,
-      "h": 34,
-      "text": "{{ambient}}",
-      "font": "m_mid",
-      "color": "fg",
-      "align": "right",
-      "conn": 1
-    },
-    {
-      "id": "outside_unit",
-      "type": "text",
-      "z": 5,
-      "x": 1551,
-      "y": 630,
-      "w": 48,
-      "h": 29,
-      "text": "{{u:temp}}",
-      "font": "m_tiny",
-      "color": "dim",
-      "conn": 1
-    },
-    {
-      "id": "badge",
-      "type": "text",
-      "z": 5,
-      "x": 760,
-      "y": 627,
-      "w": 400,
-      "h": 28,
-      "text": "{{badge}}",
-      "font": "m_badge",
-      "color": "dim",
-      "align": "center"
     }
-  ]
+  ],
+  "_safe640": "Experimental: reserve y=640..719 for BMW's native bottom status information (including ambient temperature when displayed by vehicle). May not fix native overlays; test parked. Some lower theme readouts are intentionally clipped or omitted."
 }
