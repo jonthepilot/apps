@@ -513,7 +513,7 @@
       "y": 430,
       "w": 232,
       "h": 25,
-      "text": "",
+      "text": "{{slotHead:3}}",
       "font": "head",
       "color": "ink",
       "align": "left",
@@ -527,13 +527,14 @@
       "y": 469,
       "w": 218,
       "h": 48,
-      "text": "",
+      "text": "{{slot:3}}{{slotSuffix:3}}",
       "font": "small",
       "color": "fg",
       "align": "center",
       "slot": "3",
       "fit": [
-        "small"
+        "small",
+        "unit"
       ],
       "conn": 2
     }
