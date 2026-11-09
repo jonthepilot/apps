@@ -122,9 +122,9 @@
       "type": "text",
       "z": 5,
       "x": 255,
-      "y": 548,
+      "y": 524,
       "w": 420,
-      "h": 20,
+      "h": 24,
       "text": "LAT {{gLat}}   LONG {{gLong}}",
       "font": "unit",
       "color": "dim",
@@ -222,5 +222,6 @@
   ],
   "_safe640": "Experimental compressed footer layout; not vehicle verified.",
   "_borderTest": "Experimental 0.13.5: extend existing background layers from 640 to 660 without creating any additional compositor layers. Native footer expected below; if factory info is obscured, switch Off. Not verified.",
-  "_fitPass": "v0.13.6 experimental: keep text/icon bounds above y=560, reduce Dyno value font and GT3 lower readouts; background masking remains unchanged. Verify parked."
+  "_fitPass": "v0.13.6 experimental: keep text/icon bounds above y=560, reduce Dyno value font and GT3 lower readouts; background masking remains unchanged. Verify parked.",
+  "_layoutRevision": "M440i fit pass 2026-11-09: 660px background cutoff, preserve BMW native footer; Track and Drag rebuilt into non-overlapping cards; experimental, parked verification required."
 }
