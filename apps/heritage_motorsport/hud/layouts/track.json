@@ -464,12 +464,12 @@
       "w": 218,
       "h": 48,
       "text": "{{slot:1}}{{slotSuffix:1}}",
-      "font": "small",
+      "font": "unit",
       "color": "fg",
       "align": "center",
       "slot": "1",
       "fit": [
-        "small"
+        "unit"
       ],
       "conn": 2
     },
@@ -496,12 +496,12 @@
       "w": 218,
       "h": 48,
       "text": "{{slot:2}}{{slotSuffix:2}}",
-      "font": "small",
+      "font": "unit",
       "color": "fg",
       "align": "center",
       "slot": "2",
       "fit": [
-        "small"
+        "unit"
       ],
       "conn": 2
     },
@@ -528,12 +528,11 @@
       "w": 218,
       "h": 48,
       "text": "{{slot:3}}{{slotSuffix:3}}",
-      "font": "small",
+      "font": "unit",
       "color": "fg",
       "align": "center",
       "slot": "3",
       "fit": [
-        "small",
         "unit"
       ],
       "conn": 2
