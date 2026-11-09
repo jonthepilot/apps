@@ -369,7 +369,7 @@
       "w": 130,
       "h": 52,
       "text": "{{gear}}",
-      "font": "r_val",
+      "font": "unit",
       "color": "fg",
       "align": "center",
       "color2": "chrome2",
