@@ -45,7 +45,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 640,
+      "h": 660,
       "color": "bg"
     },
     {
@@ -581,5 +581,6 @@
       "align": "center"
     }
   ],
-  "_safe640": "Experimental compressed footer layout; not vehicle verified."
+  "_safe640": "Experimental compressed footer layout; not vehicle verified.",
+  "_borderTest": "Experimental: extend existing background 20px to y660, no extra layer; verify native footer while parked."
 }
