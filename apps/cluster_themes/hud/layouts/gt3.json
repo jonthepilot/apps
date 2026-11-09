@@ -49,7 +49,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 640,
+      "h": 660,
       "color": "bg",
       "hole": [
         524,
@@ -618,5 +618,6 @@
     }
   ],
   "_safe680": "Experimental: bottom 40px reserved for native BMW information; unverified. GT3 black-box fix previously observed at cutoff 640.",
-  "_safe640": "Experimental compact layout: proven 640px compositor cutoff; lower cards and readouts repositioned above native BMW footer. Not tested on car."
+  "_safe640": "Experimental compact layout: proven 640px compositor cutoff; lower cards and readouts repositioned above native BMW footer. Not tested on car.",
+  "_borderTest": "Experimental 0.13.5: extend existing background layers from 640 to 660 without creating any additional compositor layers. Native footer expected below; if factory info is obscured, switch Off. Not verified."
 }
