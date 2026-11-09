@@ -25,7 +25,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 720,
+      "h": 640,
       "color": "bg"
     },
     {
@@ -115,20 +115,6 @@
       "w": 340,
       "h": 340,
       "max": 1.5,
-      "conn": 2
-    },
-    {
-      "id": "g_vals",
-      "type": "text",
-      "z": 5,
-      "x": 290,
-      "y": 610,
-      "w": 360,
-      "h": 37,
-      "text": "LAT {{gLat}}   LONG {{gLong}}",
-      "font": "unit",
-      "color": "dim",
-      "align": "center",
       "conn": 2
     },
     {
@@ -233,24 +219,7 @@
       "align": "left",
       "spacing": 1,
       "conn": 3
-    },
-    {
-      "id": "slot2",
-      "type": "text",
-      "z": 5,
-      "x": 1640,
-      "y": 610,
-      "w": 240,
-      "h": 60,
-      "text": "{{slot:2}}{{slotSuffix:2}}",
-      "font": "y_val",
-      "color": "fg",
-      "align": "right",
-      "slot": "2",
-      "fit": [
-        "small"
-      ],
-      "conn": 3
     }
-  ]
+  ],
+  "_safe640": "Experimental: reserve y=640..719 for BMW's native bottom status information (including ambient temperature when displayed by vehicle). May not fix native overlays; test parked. Some lower theme readouts are intentionally clipped or omitted."
 }
