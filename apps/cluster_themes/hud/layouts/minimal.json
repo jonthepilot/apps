@@ -96,7 +96,7 @@
       "type": "text",
       "z": 5,
       "x": 810,
-      "y": 548,
+      "y": 530,
       "w": 300,
       "h": 22,
       "text": "{{badge}}",
@@ -106,5 +106,6 @@
     }
   ],
   "_safe640": "Experimental compressed footer layout; not vehicle verified.",
-  "_borderTest": "Experimental 0.13.5: extend existing background layers from 640 to 660 without creating any additional compositor layers. Native footer expected below; if factory info is obscured, switch Off. Not verified."
+  "_borderTest": "Experimental 0.13.5: extend existing background layers from 640 to 660 without creating any additional compositor layers. Native footer expected below; if factory info is obscured, switch Off. Not verified.",
+  "_fitPass": "v0.13.6 experimental: keep text/icon bounds above y=560, reduce Dyno value font and GT3 lower readouts; background masking remains unchanged. Verify parked."
 }
