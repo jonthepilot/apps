@@ -523,7 +523,7 @@
       "w": 175,
       "h": 40,
       "text": "{{gearnum}}",
-      "font": "value",
+      "font": "unit",
       "color": "fg",
       "align": "right",
       "hotWhen": "now",
