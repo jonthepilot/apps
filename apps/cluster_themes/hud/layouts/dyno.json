@@ -80,7 +80,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 720,
+      "h": 640,
       "color": "bg",
       "tiles": [
         {
@@ -883,5 +883,6 @@
       "warnFlash": false,
       "conn": 3
     }
-  ]
+  ],
+  "_safe640": "Experimental: reserve y=640..719 for BMW's native bottom status information (including ambient temperature when displayed by vehicle). May not fix native overlays; test parked. Some lower theme readouts are intentionally clipped or omitted."
 }
