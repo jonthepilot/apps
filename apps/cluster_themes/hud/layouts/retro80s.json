@@ -25,7 +25,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 640,
+      "h": 680,
       "color": "bg"
     },
     {
@@ -144,7 +144,7 @@
       "x": 865,
       "y": 588,
       "w": 300,
-      "h": 52,
+      "h": 64,
       "text": "88:88",
       "font": "d7_val",
       "color": "ghost",
@@ -158,7 +158,7 @@
       "x": 865,
       "y": 588,
       "w": 300,
-      "h": 52,
+      "h": 64,
       "text": "{{time}}",
       "font": "d7_val",
       "color": "fg",
@@ -172,7 +172,7 @@
       "x": 135,
       "y": 602,
       "w": 130,
-      "h": 38,
+      "h": 47,
       "text": "888",
       "font": "d7_sm",
       "color": "ghost",
@@ -186,7 +186,7 @@
       "x": 135,
       "y": 602,
       "w": 130,
-      "h": 38,
+      "h": 47,
       "text": "{{oil}}",
       "font": "d7_sm",
       "color": "fg",
@@ -241,7 +241,7 @@
       "x": 280,
       "y": 602,
       "w": 130,
-      "h": 38,
+      "h": 47,
       "text": "888",
       "font": "d7_sm",
       "color": "ghost",
@@ -255,7 +255,7 @@
       "x": 280,
       "y": 602,
       "w": 130,
-      "h": 38,
+      "h": 47,
       "text": "{{coolant}}",
       "font": "d7_sm",
       "color": "fg",
@@ -310,7 +310,7 @@
       "x": 425,
       "y": 602,
       "w": 130,
-      "h": 38,
+      "h": 47,
       "text": "888",
       "font": "d7_sm",
       "color": "ghost",
@@ -324,7 +324,7 @@
       "x": 425,
       "y": 602,
       "w": 130,
-      "h": 38,
+      "h": 47,
       "text": "{{fuelPct}}",
       "font": "d7_sm",
       "color": "fg",
@@ -487,7 +487,25 @@
       "align": "left",
       "spacing": 1,
       "conn": 3
+    },
+    {
+      "id": "slot2",
+      "type": "text",
+      "z": 5,
+      "x": 1620,
+      "y": 616,
+      "w": 240,
+      "h": 64,
+      "text": "{{slot:2}}",
+      "font": "d7_val",
+      "color": "fg",
+      "align": "right",
+      "slot": "2",
+      "fit": [
+        "small"
+      ],
+      "conn": 3
     }
   ],
-  "_safe640": "Experimental: reserve y=640..719 for BMW native bottom status information (including ambient temperature when displayed by vehicle). May not fix native overlays; test parked. Some lower theme readouts are clipped or omitted."
+  "_safe680": "Experimental: bottom 40px reserved for native BMW information; unverified."
 }
