@@ -21,8 +21,6 @@ const DIR = '/dev/shm/bimmer-lab';
 const BEAT_MS = 2000;
 const FRESH_MS = 7000;           // the other app's file older than this: it isn't running
 const NAMES = { cluster: 'Cluster Themes', hud: 'HUD Widgets' };
-// Experimental only: disable cross-target app-level yield; does not override renderer arbitration.
-const DUAL_TARGET_EXPERIMENT = true;
 
 class Screen {
     /** me: 'cluster' | 'hud'. isOn(): this app draws something now. onChange(): the yield changed (rebuild). */
@@ -49,7 +47,7 @@ class Screen {
     stop() { clearInterval(this.timer); this._write(false); }
 
     /** The other app is drawing on the shared screen now. */
-    otherOn() { return !DUAL_TARGET_EXPERIMENT && !!(this.peer && this.peer.on); }
+    otherOn() { return !!(this.peer && this.peer.on); }
 
     /** The driver picked a theme or layout here: take the screen (the other app steps aside on its next read). */
     claim() {
@@ -62,15 +60,11 @@ class Screen {
     release() { this._setYield(false); }
 
     beat() {
-        if (DUAL_TARGET_EXPERIMENT) {
-            this.peer = null;
-            if (this.yielded) this._setYield(false);
-        } else this._read();
+        this._read();
         this._write(this.isOn());
     }
 
     _read() {
-        if (DUAL_TARGET_EXPERIMENT) return;
         let p = null;
         try {
             const f = path.join(this.dir, this.other + '.json');
