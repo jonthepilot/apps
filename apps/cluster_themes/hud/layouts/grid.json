@@ -4,17 +4,6 @@
   "_about": "Calibration: lines every 50 px with x/y labels, a grey swatch drawn by a shader and the same one as pixels (do the two strips photograph alike?), a probe row L1..L16 of own image layers, and an atlas-text probe. The app's own connection carries the grid, the labels, the two swatches, L1..L3 and the atlas text (8 layers); L4..L11 are on connection 2 and L12..L16 on connection 3. A photo showing all sixteen means each socket gets its own 8 layers. The atlas text (ATLAS, the clock, the rpm) is one shader layer reading an R8 glyph asset: if it shows, text can be drawn with no pixel writes at all.",
   "widgets": [
     {
-      "id": "native_footer_mask",
-      "type": "fill",
-      "class": "content",
-      "z": 1,
-      "x": 0,
-      "y": 640,
-      "w": 1920,
-      "h": 40,
-      "color": "bg"
-    },
-    {
       "id": "grid",
       "type": "grid",
       "x": 0,
@@ -293,6 +282,5 @@
     }
   ],
   "theme": "gt3",
-  "_safe640": "Experimental compressed footer layout; not vehicle verified.",
-  "_footerFix": "Experimental: mask underlying BMW gauges from y=640 to 680, preserve native footer y=680..720. Test parked."
+  "_safe640": "Experimental compressed footer layout; not vehicle verified."
 }
