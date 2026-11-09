@@ -9,7 +9,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 640,
+      "h": 680,
       "step": 50,
       "major": 2
     },
@@ -20,7 +20,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 640,
+      "h": 680,
       "step": 100,
       "font": "head"
     },
@@ -282,5 +282,5 @@
     }
   ],
   "theme": "gt3",
-  "_safe640": "Experimental: reserve y=640..719 for BMW's native bottom status information (including ambient temperature when displayed by vehicle). May not fix native overlays; test parked. Some lower theme readouts are intentionally clipped or omitted."
+  "_safe680": "Experimental: bottom 40px reserved for native BMW information; unverified."
 }
