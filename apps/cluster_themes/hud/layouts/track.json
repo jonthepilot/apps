@@ -56,7 +56,7 @@
           "x": 130,
           "y": 436,
           "w": 265,
-          "h": 158,
+          "h": 129,
           "head": 36,
           "radius": 4
         },
@@ -65,7 +65,7 @@
           "x": 415,
           "y": 436,
           "w": 265,
-          "h": 158,
+          "h": 129,
           "head": 36,
           "radius": 4
         },
@@ -83,7 +83,7 @@
           "x": 700,
           "y": 516,
           "w": 690,
-          "h": 106,
+          "h": 49,
           "head": 36,
           "radius": 4
         },
@@ -110,7 +110,7 @@
           "x": 1610,
           "y": 539,
           "w": 280,
-          "h": 83,
+          "h": 30,
           "head": 36,
           "radius": 4
         }
@@ -310,7 +310,7 @@
       "type": "text",
       "z": 5,
       "x": 182,
-      "y": 541,
+      "y": 523,
       "w": 160,
       "h": 29,
       "text": "{{tyreT:RL}}°",
@@ -366,7 +366,7 @@
       "type": "text",
       "z": 5,
       "x": 467,
-      "y": 541,
+      "y": 523,
       "w": 160,
       "h": 29,
       "text": "{{tyreT:RR}}°",
@@ -420,7 +420,7 @@
       "type": "text",
       "z": 5,
       "x": 795,
-      "y": 525,
+      "y": 507,
       "w": 240,
       "h": 45,
       "text": "{{speed}}",
@@ -433,7 +433,7 @@
       "type": "text",
       "z": 5,
       "x": 1045,
-      "y": 546,
+      "y": 528,
       "w": 100,
       "h": 24,
       "text": "{{u:speed}}",
@@ -524,7 +524,7 @@
       "type": "text",
       "z": 5,
       "x": 1626,
-      "y": 525,
+      "y": 507,
       "w": 250,
       "h": 45,
       "text": "{{slot:3}}{{slotSuffix:3}}",
@@ -539,5 +539,6 @@
     }
   ],
   "_safe640": "Experimental compressed footer layout; not vehicle verified.",
-  "_borderTest": "Experimental: extend existing background 20px to y660, no extra layer; verify native footer while parked."
+  "_borderTest": "Experimental: extend existing background 20px to y660, no extra layer; verify native footer while parked.",
+  "_fitPass": "v0.13.6 experimental: keep text/icon bounds above y=560, reduce Dyno value font and GT3 lower readouts; background masking remains unchanged. Verify parked."
 }
