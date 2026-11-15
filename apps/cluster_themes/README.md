@@ -135,10 +135,3 @@ Tested on a 2020 X3 M40i. GT3 draws complete. The car draws at most 8 layers per
 - how the colours and edges look on the real screen.
 
 Version history is in the repo's [CHANGELOG.md](../../CHANGELOG.md).
-
-
-## GT3 AFR + Ignition test preview
-
-![GT3 AFR and ignition test preview](../../docs/images/gt3-afr-ignition-preview.svg)
-
-**Experimental visual preview only.** The six cylinder correction values and actual/target AFR deliberately show `N/A` because live DME sources have not been validated. Existing speed/RPM/boost readouts are illustrative. This SVG is not a captured car or bench screenshot; verify actual rendering while parked.
